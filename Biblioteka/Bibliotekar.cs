@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Biblioteka {
     internal class Bibliotekar : Osoba, IAdministrativniZadaci {
 
-        List<string> ListaKnjigaNaPolici = new List<string>();
+        public List<string> ListaKnjigaNaPolici = new List<string>();
 
         public void DodajKnjiguNaPolicu(string knjiga) {
 

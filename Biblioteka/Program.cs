@@ -12,6 +12,10 @@
             bibliotekar.ObrisiKnjiguSaPolice("Knjiga 2");
             bibliotekar.PrikaziDetalje();
 
+            foreach (string knjiga in bibliotekar.ListaKnjigaNaPolici) {
+                Console.WriteLine(knjiga);
+            }
+
             ClanBiblioteke clan = new ClanBiblioteke();
             clan.Ime = "Petar";
             clan.Prezime = "Petrovic";
